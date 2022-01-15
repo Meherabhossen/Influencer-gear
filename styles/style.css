@@ -1,0 +1,62 @@
+/*--------Font--------*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Playfair+Display&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+header{
+    margin: 80px;
+    margin-bottom: 30px;
+   
+}
+.container{
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 80px;
+}
+
+/*--------Influencer-journey---------*/
+.influencer-journey{
+    
+    display: flex;
+}
+.journey-start{
+    width: 582px;
+    height: 270px;
+    margin: 80px;
+}
+.influencer-title{
+    font-size: 52px;
+   
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    color: whitesmoke;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 5px 10px;
+}
+.home-image:hover img{
+    transform: rotate(360deg) scale(1.5);
+    transition: transform 1s ease-in-out;   
+}
+.home-image{
+    width: 440px;
+    height: 414px;
+    margin-top: 40px;
+    margin-left: 133px;
+    margin-right: 0%; 
+}
+.home-image img{
+    width: 95%;
+}
+/*-------------------
+ Popular Collection
+--------------------*/
+ h2{
+     text-align: center;
+ }
