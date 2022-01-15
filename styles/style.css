@@ -16,9 +16,6 @@ header{
     margin-bottom: 30px;
    
 }
-.container{
-    
-}
 hr{
     border: 1px solid #D1D1D1;
     margin: 80px;
@@ -178,4 +175,73 @@ footer{
 }
 .fo-icon{
     padding-left: 15px;
+}
+
+/*---------------
+  Media Queries
+----------------*/
+
+
+/*------Mobile devices------*/
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+        
+    }
+    .influencer-journey{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+     hr{
+         width: 180%;
+     }   
+
+    .collections{
+        grid-template-columns:repeat(1,1fr);
+        }
+    .see-more{
+        }
+    .upcomming-product{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width:200%;
+    }
+}
+
+/*--------------
+Tablet devices
+---------------*/
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+        margin-left:60% ;
+    }
+    .influencer-journey{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+     hr{
+         width:100%;
+     }   
+
+    .collections{
+        grid-template-columns:repeat(2,1fr);
+        }
+    .see-more{
+        
+    }
+    .upcomming-product{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width:200%;
+    }
 }
