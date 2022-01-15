@@ -26,7 +26,6 @@ hr{
 
 /*--------Influencer-journey---------*/
 .influencer-journey{
-    
     display: flex;
 }
 .journey-start{
@@ -38,6 +37,9 @@ hr{
     font-size: 52px;
    
 }
+p{
+    text-align: justify;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(salmon, tomato);
@@ -46,6 +48,9 @@ hr{
     height: 44px;
     border-radius: 41px;
     padding: 5px 10px;
+}
+.arrow-button{
+    margin: 10px;
 }
 .home-image:hover img{
     transform: rotate(360deg) scale(1.5);
@@ -64,7 +69,7 @@ hr{
 /*-------------------
  Popular Collection
 --------------------*/
- h2{
+ .p-collection{
      font-size: 28px;
      text-align: center;
  }
@@ -114,3 +119,63 @@ hr{
      font-size: 15px;
      margin-bottom: 50%;
  }
+ .see-more{
+     margin-top:20px ;
+     margin-left:85%;
+     text-decoration: none;
+     font-size: 16px;
+     color:#E02C6D;
+     
+ }
+
+/*-------------
+Upcoming Product
+----------------*/
+.upcomming-product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.ucproduct{
+    margin-top: 90px;
+    padding-left: 170px;
+   
+}
+.ucproduct img{
+    width: 70%;
+    border-radius: 5px;
+}
+.ucproduct-info{
+    width: 610px;
+    height: 224px;
+    margin-top: 80px;
+    margin-right:165px;
+    padding-left:10px;
+    padding-right: 40px;
+}
+/*------------
+ Footer style 
+--------------*/
+
+footer{
+    width: 100%;
+    height: 240px;
+    background-color:#0A0826;
+}
+.fo-tag{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding-top:50px;
+}
+.copyright{
+    text-align: center;
+    color: white;
+}
+.fo-icons{
+    text-align: center;
+    color: white;
+}
+.fo-icon{
+    padding-left: 15px;
+}
